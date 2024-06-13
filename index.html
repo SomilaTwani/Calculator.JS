@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="./Script.js"></script>
+</head>
+<body>
+    <label id="firstNumber">1st Number</label>
+    <input id="input1" name="input1" type="number" placeholder="first number" />
+    
+    <br><br>
+
+    <label id="secondNumber"> 2nd Number</label>
+    <input id="input2" name="input2" type="number" placeholder="second Number" />
+
+    <br>
+    <br>
+
+    <button id="add" name="addButton"  onclick=add()>Add</button>
+    <button id="minus" name="minusButton" onclick=minus() >Minus</button>
+    
+    <button id="divide" name="divideButton" onclick=divide() >Divide</button>
+    <button id="multiply" name="multiplyButton" onclick=multiply() >Multiply</button>
+
+    <label id="result">The result is: </label>
+    <p id="resultValue"> </p>
+
+
+</body>
+</html>
